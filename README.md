@@ -11,6 +11,7 @@ directly if you prefer that.
 Here's how you would add a function, create a function input, get the value,
 connect the value with a Random node and set it as the output node.
 
+```
 from snixel import Snixel
 
 snixel = Snixel()
@@ -31,3 +32,4 @@ func.setOutput(out)
 
 # Compile the output to file "random.sbs"
 snixel.compile("random.sbs")
+```
